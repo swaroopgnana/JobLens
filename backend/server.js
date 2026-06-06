@@ -15,7 +15,7 @@ const defaultAllowedOrigins = [
   "http://localhost:5173",
   "http://127.0.0.1:5173",
   "https://job-lens-six.vercel.app",
-  "https://scam-job-detection-application-5lc2.vercel.app"
+
 ];
 const envAllowedOrigins = process.env.CLIENT_URLS
   ? process.env.CLIENT_URLS.split(",").map((origin) => origin.trim()).filter(Boolean)
