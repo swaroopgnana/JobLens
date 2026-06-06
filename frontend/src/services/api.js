@@ -15,7 +15,7 @@ const getApiBaseUrl = () => {
     return "http://localhost:5000/api";
   }
 
-  return "https://scam-job-detection-application-2.onrender.com/api";
+  return "https://job-lens-six.vercel.app/api";
 };
 
 const API_BASE_URL = getApiBaseUrl();
